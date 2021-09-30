@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Dream - A Design Agency</title>
+    <link rel = "icon" href = "/images/favicon.svg">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="container">
+            <div>
+                <a href="index.html"><img src="/images/designDreamLogoInBlack.svg" alt="Design Dream Logo"></a>
+            </div>
+
+            <div>
+                <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+            
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+            
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#">Process</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li class="affiliate-program-cta"><a href="#">Affiliate Program</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Hero section -->
+
+    <section class="hero-section">
+        <div class="container align-content">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h4 class="hero-section-h4-text">with design dream</h4>
+                <h1 class="hero-section-h1-text">Improve Your Website Usability & Profitablity in Proven Way</h1>
+                <h5 class="hero-section-h5-text">We are a UX/UI Design agency from Jaipur,
+                    <br>Focusing on solutions from design to development</h5>
+                    <button class="lets-connect-button">Let’s Connect</button>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="images/heroSectionImg.svg" alt="hero section image" style="width: 100%;">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="clients-logo">
+                <h5 class="client-logo-box-h5-text">Few of our clients</h5>
+                <div class="clients-logo-showcase">
+                    <img class="logo" src="images/propertyBrokerLogo@2x.svg" alt="property broker logo">
+                    <img class="logo" src="images/maidInHeavenLogo@2x.svg" alt="main in heaven logo">
+                    <img class="logo" src="images/tryCodersLog@2x.svg" alt="try coders logo">
+                    <img src="images/memLogo@2x.svg" alt="mem logo">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Design process -->
+
+    <section class="design-process">
+        <div class="container flow-direction">
+            <div class="design-process-title">
+                <h2 class="design-process-h2-text">Our Process that makes your idea successful</h2>
+            </div>
+            <div class="design-phase tab">
+                <ul class="process-nav">
+                    <li class="tablinks active" onclick="openCity(event, 'Discover')"><h3>Discover</h3></li>
+                    <li class="tablinks" onclick="openCity(event, 'Define')"><h3>Define</h3></li>
+                    <li class="tablinks" onclick="openCity(event, 'Ideate')"><h3>Ideate</h3></li>
+                    <li class="tablinks" onclick="openCity(event, 'Prototype')"><h3>Prototype</h3></li>
+                    <li class="tablinks" onclick="openCity(event, 'Deliver')"><h3>Deliver</h3></li>
+                </ul>
+            
+                <div id="Discover" class="tabcontent" style="display: block;">
+                    <h5 class="design-process-text-h5-text">Understand why people behave the way they do. This is perhaps the most important attribute in the field. Putting yourself in other people’s shoes is essential to working in UX design, and it is something you might have to learn when you are just starting out. Contrary to popular belief, it does not come naturally to everyone!
+                    </h5>
+                    <div class="process-images">
+                        <img class="research-image" src="./images/discoverPhaseImg.png" alt="research image">
+                    </div>
+                    <img class="graphical-dots-image" src="/images/designDots@2x.svg" alt="">
+                </div>
+            
+                <div id="Define" class="tabcontent">
+                    <h5 class="design-process-text-h5-text">Defining A user need is an actionable problem statement used to summarize who a particular user is, the user’s need, and why the need is important to that user. It defines what you want to solve before you move on to generating potential solutions, in order to 1) condense your perspective on the problem, and 2) provide a metric for success to be used throughout the design thinking process.
+                    </h5>
+                    <div class="process-images">
+                        <img class="research-image" src="./images/definePhaseImg.png" alt="define image">
+                    </div>
+                    <img class="graphical-dots-image" src="/images/designDots@2x.svg" alt="">
+                </div>
+            
+                <div id="Ideate" class="tabcontent">
+                    <h5 class="design-process-text-h5-text">Ideation is a creative process where designers generate ideas in sessions (e.g., brainstorming, etc). It is the third stage in the Design Thinking process. Participants gather with open minds to produce as many ideas as they can to address a problem statement in a facilitated, judgment-free environment.
+                    </h5>
+                    <div class="process-images">
+                        <img class="research-image" src="./images/ideatePhaseImg.png" alt="ideation image">
+                    </div>
+                    <img class="graphical-dots-image" src="/images/designDots@2x.svg" alt="">
+                </div>
+            
+                <div id="Prototype" class="tabcontent">
+                    <h5 class="design-process-text-h5-text">Turning the ideas into a functional prototype. Prototyping helps to visualize the final product where user can experience the product flow and provide his valuable feedback. The most straightforward way to get the feedback is to watch users work with prototype.
+                    </h5>
+                    <div class="process-images">
+                        <img class="research-image" src="./images/prototypePhaseImg.png" alt="design prototype image">
+                    </div>
+                    <img class="graphical-dots-image" src="/images/designDots@2x.svg" alt="">
+                </div>
+            
+                <div id="Deliver" class="tabcontent">
+                    <h5 class="design-process-text-h5-text">Although now the designers deliver all the design assets to developers, including the design system, images, fonts, etc. the work doesn’t end here. The designers collaborate with the developers until we receive the outcome. We always create a successful product when the team helps each other and build something incredible.
+                    </h5>
+                    <div class="process-images">
+                        <img class="research-image" src="./images/deliverPhaseImg.png" alt="design delivery image">
+                    </div>
+                    <img class="graphical-dots-image" src="/images/designDots@2x.svg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Our work -->
+
+    <section class="our-work">
+        <div class="container flow-direction">
+            <div class="design-process-title">
+                <h2 class="design-process-h2-text">Our Recent Work</h2>
+            </div>
+            <div class="our-work-details">
+                <div class="showcase">
+                    <img class="showcase-img" src="/images/memAppShowcaseImg.png" alt="Our Work">
+                    <h3 class="showcase-text-h3-text">Mobile Application design for My Event Maker (MEM)</h3>
+                    <h5 class="showcase-text-h5-text">A website design project from My Event Maker. They were looking for a website that can engage their clients &
+                        improve their chances to get more projects.</h5>
+                </div>
+
+                <div class="showcase">
+                    <img class="showcase-img" src="/images/tryCodersWebsiteShowcaseImg.png" alt="Our Work">
+                    <h3 class="showcase-text-h3-text">Website design for TryCoders</h3>
+                    <h5 class="showcase-text-h5-text">A website design project from TryCoders. They were looking for a website that can engage their clients & improve
+                        their chances to get more projects.</h5>
+                </div>
+
+                <div class="showcase">
+                    <img class="showcase-img" src="/images/propertyBrokersWebsiteShowcaseImg.png" alt="Our Work">
+                    <h3 class="showcase-text-h3-text">Website & mobile application design for Property Broker</h3>
+                    <h5 class="showcase-text-h5-text">A property broker website & mobile application project. The idea behind the project is property searching & the
+                        end user have lot of filters to get the desired property.</h5>
+                </div>
+                
+                <div class="showcase">
+                    <img class="showcase-img" src="/images/maidInHeavenAppShowcaseImg.png" alt="Our Work">
+                    <h3 class="showcase-text-h3-text">Mobile application design for Maid in Heaven</h3>
+                    <h5 class="showcase-text-h5-text">A property broker website & mobile application project. The idea behind the project is property searching & the
+                        end user have lot of filters to get the desired property.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviecs -->
+
+    <section class="services">
+        <div class="container flow-direction">
+            <div class="design-process-title">
+                <h2 class="design-process-h2-text">Our Services</h2>
+            </div>
+            <div class="services-box">
+                <div class="design-service-box">
+                    <img src="/images/designingServiceIcon.png" alt="design service">
+                    <h4>Designing</h4>
+                    <h6>We utilize design as a problem-solving measure to devise a tailor-fit solution for your product.</h6>
+                    <ul>
+                        <li>User Experience Design</li>
+                        <li>User Interface Design</li>
+                        <li>Illustration Design</li>
+                        <li>Interaction Design</li>
+                    </ul>
+                </div>
+                <div class="development-service-box">
+                    <img src="/images/developmentServiceIcon.png" alt="design service">
+                    <h4>Development</h4>
+                    <h6>We orchestrate a design-focused development process to achieve a seamless implementation of an ideal product.</h6>
+                    <ul>
+                        <li>Website Development</li>
+                        <li>Mobile App Development</li>
+                        <li>Wordpress Website Development</li>
+                    </ul>
+                </div>
+                <div class="marketing-service-box">
+                    <img src="/images/marketingServiceIcon.png" alt="design service">
+                    <h4>Marketing</h4>
+                    <h6>We optimize the customer experience by providing relevant content strategy and campaign management, the key to personalized marketing.</h6>
+                    <ul>
+                        <li>Social Media Posts</li>
+                        <li>Content Writing</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+
+    <section class="testimonial">
+        <div class="container flow-direction">
+            <div class="design-process-title">
+                <h2 class="design-process-h2-text">Trusted by Our<br>Happy Customers</h2>
+            </div>
+            <div class="review">
+                <img src="/images/nitinAvatarIcon@2x.svg" alt="avatar icon">
+                <h4>Nitin Jain</h4>
+                <img src="/images/Rating.svg" alt="rating">
+                <h3>"I have hired Ashutosh for 3 Projects and he delivers an excellent piece of work. I would recommend him for other user also in future."</h3>
+                <img src="/images/review-line.svg">
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+
+    <section class="about-us">
+        <div class="container flow-direction">
+            <div class="design-process-title">
+                <h2 class="design-process-h2-text">About Design Dream</h2>
+            </div>
+            <div class="about-us-img-text row">
+                <div class="about-us-img col-lg-6 col-md-12 col-sm-12">
+                    <img class="about-us-img" src="/images/aboutUsImg.svg" alt="about design dream">
+                </div>
+                <div class="about-us-text col-lg-6 col-md-12 col-sm-12">
+                    <h5>Drop us a message. We are always ready to talk.</h5>
+                    <h6>We are a dedicated and growing team of designers and developers passionate about UX UI Design. We are a design
+                        agency focused exclusively on providing design & development services for Web, Desktop, and Mobile Apps, SaaS
+                        and Cloud Platforms, and Enterprise software.
+                        <br>
+                        We have been in the industry for more than 10 years and have worked with several marquee companies as well as
+                        startups and other enterprises.
+                        <br>
+                        Our specialty lies in User Analysis, Information Architecture, Interaction Design, Visual Design, and Usability
+                        Analysis.
+                        <br>
+                        For UI development, we rely on HTML, CSS, AJAX, JQuery, ExtJS, Sencha, Flex/Flash, Flutter, Silverlight, iOS &
+                        Android technologies.</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in touch -->
+
+    <section class="get-in-touch">
+        <div class="container">
+            <div class="contact-us-box row">
+                <div class="contact-us-text col-lg-6 col-md-12 col-sm-12">
+                    <h3>Get in touch</h3>
+                    <h5>Feel free to ask us anything, we're all ears.<br>
+                        Just type your email address and we will connect you.</h5>
+                </div>
+                <div class="email-box col-lg-6 col-md-12 col-sm-12">
+                    <input type="text" class="email-input" placeholder="Enter email address" name="emailInput">
+                    <button class="continue-btn"><h5>Continue</h5></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container flow-direction">
+            <div class="top-footer">
+                <div class="logo-text col-lg-4 col-md-12 col-sm-12">
+                    <img src="/images/designDreamLogoInWhite@2x.svg" alt="design dream logo in white">
+                    <h5>UI/UX Design agency in Jaipur, focusing on establishing an end to end product solution; everything from product design to development.</h5>
+                </div>
+                <div class="row col-lg-8 col-md-12 col-sm-12">
+                    <div class="about-us-and-email-footer col-md-4 col-sm-12">
+                        <h4>About us</h4>
+                        <h5>Process<br>
+                            Services<br>
+                            Contact us<br>
+                            Affiliate Program</h5>
+                    </div>
+                    <div class="about-us-and-email-footer col-md-4 col-sm-12">
+                        <h4>Contact us</h4>
+                        <h5>info@designdream.in</h5>
+                    </div>
+                    <div class="social-media-icon col-md-4 col-sm-12">
+                        <img src="/images/dribbble@2x.svg" alt="design dream dribbble">
+                        <img class="social-media-margin" src="/images/behance@2x.svg" alt="design dream behance">
+                        <img class="social-media-margin" src="/images/linkedin@2x.svg" alt="design dream linkedin">
+                    </div>
+                </div>
+            </div>
+            <div class="bot-footer">
+                <p>Copyright ® 2021 Design Dream. All rights Rcerved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+
+</body>
+</html>
